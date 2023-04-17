@@ -1,0 +1,68 @@
+.fit-rec h1 {
+    color: #333333;
+    font-size: clamp(1.75rem, 2.5vw, 2.25rem);
+    font-weight: 800;
+    margin: 2rem 0 3rem 0;
+}
+
+.fit-rec .articles h3 {
+    font-family: "Merriweather", sans-serif;
+    font-weight: 800;
+    color: #000;
+    transition: 250ms ease-in-out;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.fit-rec .articles a img {
+    max-width: 100%;
+}
+
+.fit-rec .articles a {
+    padding: 0.5rem;
+    box-shadow: #11111a1a 0px 1px 0px 0px;
+    border: 1px solid #73739b1a;
+    border-radius: 7px;
+    text-decoration: none;
+    transition: 250ms ease-in-out;
+}
+
+.fit-rec .articles a:hover,
+.yt-embeds iframe:hover {
+    transform: scale(102%);
+}
+
+.fit-rec .articles a:hover h3 {
+    color: #ecb100;
+}
+
+.yt-embeds {
+    margin-bottom: 4rem;
+}
+
+.yt-embeds iframe {
+    max-width: 100%;
+    min-height: 300px;
+    width: 100%;
+    transition: 250ms ease-in-out;
+}
+
+@media (max-width: 992px) {
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .fit-rec .articles a h3 {
+        font-size: 1.25rem;
+    }
+
+    .yt-embeds iframe {
+        max-width: 100%;
+        min-height: 250px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,32 @@
+.MoodForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 350px;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.MoodForm label {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.MoodForm select {
+  font-size: 1.4rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.MoodForm button {
+  font-size: 1.4rem;
+  padding: 0.5rem 2rem;
+  background-color: #008080;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}

@@ -1,0 +1,33 @@
+.MoodCalendar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid #cccccc;
+  gap: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+.day {
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.happy {
+  background-color: #fce2ba;
+}
+
+.sad {
+  background-color: #bad8fc;
+}
+
+.angry {
+  background-color: #fcc2c2;
+}
+
+.content {
+  background-color: #e6f4e6;
+}
